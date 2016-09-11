@@ -13,7 +13,7 @@ int main(int argc, char **argv) {
 	TTF_Init();
 	if(SDL_Init(SDL_INIT_VIDEO) < 0) return -1; // init SDL2
 	printf("Jogo inicializado!\n");
-	window = createWindow("Jogo da Inundacao - Marcelo Penteado - 2016", SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED, 
+	window = createWindow("Jogo da Inundacao - MarkPenteado - 2016", SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED, 
 		800, 600, SDL_WINDOW_OPENGL);
 	renderer = createRenderer(&window, -1, SDL_RENDERER_ACCELERATED);
 	core = createCore(&window, &renderer);
