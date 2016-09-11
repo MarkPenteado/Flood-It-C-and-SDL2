@@ -1,4 +1,4 @@
 # Flood-It-C-and-SDL2
-Jogo Flood It em C com SDL2, para testar esse codigo voce precisa instalar a biblioteca grafica SDL2! Ela pode ser baixada em: libsdl.org
+Flood It game in C with SDL2! To test this code you need to install the graphical library SDL2! It can be downloaded from: libsdl.org
 
-Apos baixar a biblioteca grafica SDL2, apenas execute o arquivo makefile pelo terminal. Abra o jogo pelo executavel ./flood
+After downloading the graphical library SDL2, just run the makefile in terminal and open the game with the executable file ./flood
